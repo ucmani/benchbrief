@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python / tooling
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
+
+# generated deploy bundle (rebuild with scripts/build_space.sh)
+space/
+
+# regenerable eval working files (the final golden_v2.csv IS tracked)
+evaluation/test_data/datasets/golden_candidates.csv
+evaluation/test_data/datasets/golden_attempted.txt
+evaluation/test_data/datasets/ragas_results.csv
+evaluation/test_data/datasets/retrieval_ranks.csv
+evaluation/test_data/datasets/retrieval_misses.csv
