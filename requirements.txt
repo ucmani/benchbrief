@@ -1,0 +1,29 @@
+# ingestion
+requests
+
+# db
+supabase
+
+# vector store
+pinecone
+
+# serving
+#vllm
+fastapi
+uvicorn[standard]
+
+# observability
+prometheus-client
+prometheus-fastapi-instrumentator
+
+# evals
+ragas
+datasets
+
+# general
+python-dotenv
+pydantic
+sentence-transformers
+openai
+streamlit
+gradio>=6
